@@ -9,16 +9,6 @@ This script processes 3D mesh files in `.obj` format by:
 
 ---
 
-## Requirements
-
-- Python 3.8+
-- `trimesh`
-- `numpy`
-
----
-
----
-
 ## Usage (How To Run)
 
 1. Place all your `.obj` mesh files inside the `datasets` folder.
@@ -45,9 +35,11 @@ python data_prep.py
 project/
 │
 ├── datasets/              # Input folder containing .obj files
-├── normalized_meshes/     # Output folder for normalized .ply files
+├── normalized_meshes/    # Output folder for normalized .ply files
+├── requirements.txt      # list of requirements
 ├── mesh_stats.csv         # Output CSV with mesh statistics
 ├── data_prep.py  # This script
+├── test-nb.ipynb  # jupyter notebook
 └── README.md
 ```
 
