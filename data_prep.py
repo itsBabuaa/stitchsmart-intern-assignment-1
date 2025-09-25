@@ -46,7 +46,7 @@ def helper(file_path, output_dir):
 
 
 
-def main(input_dir="datasets", output_dir="normalized_meshes", csv_file="mesh_stats.csv"):
+def main(input_dir="datasets", output_dir="normalized_meshes", csv_file="mesh_stats_1.csv"):
 
     os.makedirs(output_dir, exist_ok=True)
     all_stats = []
@@ -66,4 +66,5 @@ def main(input_dir="datasets", output_dir="normalized_meshes", csv_file="mesh_st
 
 
 if __name__ == "__main__":
+
     main()
